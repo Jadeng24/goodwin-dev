@@ -1,0 +1,10 @@
+<mat-toolbar color="primary">
+  Goodwin Dev
+  <button mat-button [matMenuTriggerFor]="menu">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item routerLink="/">Home</button>
+    <button mat-menu-item routerLink="/skills">Skills</button>
+  </mat-menu>
+</mat-toolbar>
